@@ -13,10 +13,10 @@ int main() {
         printf( "ok") ;
     } else {
         while ( i <= 5) {
-            printf( "not-okay-%d ", ++i) ;
+            printf( "not-okay-%d " , ++i) ;
         }
         
-        for ( i = 3; i < 10; i += 1) {
+        for ( i = 3 ; i < 10; i += 1) {
             if ( i % 2 == (!_1 ? 1 : 2)) { 
                 printf( "see see") ;
             } else {
