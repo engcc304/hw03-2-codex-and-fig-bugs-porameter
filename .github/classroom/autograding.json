@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Fix bugs and arrange in codex pattern",
+      "setup": "g++ -o a.out ./Homework/HW03/hw03-2-codex-and-fix-bug.cpp",
+      "run": "./a.out",
+      "input": "",
+      "output": "0  not-okey-1  not-okey-2  not-okey-3  not-okey-4  not-okey-5  not-okey-6 haha",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
